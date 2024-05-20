@@ -95,8 +95,8 @@ function Signup() {
                                 <button className=' bg-lime-500 text-white rounded-md px-3 py-2 hover:bg-lime-700 duration-200 cursor-pointer'>Signup</button>
 
 
-                               <Link to={"/"}> <span className=' px-3 py-2'>Have account?{" "} <button className=' text-blue-500 underline cursor-pointer hover:text-blue-600'>Signin</button>{" "}
-                                   
+                                <Link to={"/"}> <span className=' px-3 py-2'>Have account?{" "} <button className=' text-blue-500 underline cursor-pointer hover:text-blue-600'>Signin</button>{" "}
+
                                 </span></Link>
 
                             </div>
