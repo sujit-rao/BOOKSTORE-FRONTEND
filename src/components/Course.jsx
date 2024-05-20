@@ -12,7 +12,7 @@ function Course() {
     const getBook = async() => {
       try {
         
-      const res = await axios.get("https://bookstore-backend-njxqqu5vb-sujit-raos-projects.vercel.app/book")
+      const res = await axios.get("https://bookstore-backend-kohl.vercel.app/book")
       console.log(res)
         setBook(res.data);
       } catch (error) {
