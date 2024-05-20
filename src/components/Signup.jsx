@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 import Login from './Login.jsx'
 import { useForm } from "react-hook-form"
 import axios from "axios"
 import toast from "react-hot-toast"
+import Home from '../home/Home.jsx'
 function Signup() {
     const {
         register,
@@ -26,7 +27,7 @@ function Signup() {
                     toast.success("Signup Successful")
                 }
                 localStorage.setItem('Users', JSON.stringify(res.data.user))
-                window.location.reload();
+                
             }).catch((err) => {
 
                 if (err.response) {
