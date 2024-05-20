@@ -19,7 +19,7 @@ function Signup() {
         }
 
         await axios
-            .post("https://book-store-backend-virid.vercel.app/user/signup", userInfo)
+            .post("https://bookstore-backend-njxqqu5vb-sujit-raos-projects.vercel.app/user/signup", userInfo)
             .then((res) => {
                 console.log(res.data)
                 if (res.data) {
